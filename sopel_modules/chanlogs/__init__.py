@@ -103,9 +103,6 @@ def _format_template(tpl, bot, trigger, **kwargs):
         date=dt.date().isoformat(), time=dt.time().isoformat(),
         **kwargs
     ) + "\n"
-
-    if sys.version_info.major < 3 and isinstance(formatted, unicode):
-        formatted = formatted.encode('utf-8')
     return formatted
 
 
