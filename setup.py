@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
 setup(
     name='sopel_modules.chanlogs',
-    version='0.1.0',
+    version='0.1.1',
     description='A channel logging module for Sopel',
     author='Embolalia',
     author_email='powell.518@gmail.com',
